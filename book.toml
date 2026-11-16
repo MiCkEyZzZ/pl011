@@ -1,0 +1,27 @@
+[book]
+title = "PrimeCell UART (PL011)"
+description = "Техническое руководство по универсальному асинхронному приёмопередатчику ARM PrimeCell PL011"
+language = "ru"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+no-section-label = false
+additional-css = ["theme/pl011.css"]
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
